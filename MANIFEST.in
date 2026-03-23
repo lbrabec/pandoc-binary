@@ -1,0 +1,4 @@
+include pandoc-deps.txt
+include pandoc.cabal.project
+recursive-include scripts *.sh
+recursive-include hackage-packages *.tar.gz

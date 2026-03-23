@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandoc-rhai"
+version = "3.7.0.2"
+description = "Pandoc binary packaged as a Python wheel"
+
+[project.scripts]
+pandoc = "pandoc_rhai:main"
